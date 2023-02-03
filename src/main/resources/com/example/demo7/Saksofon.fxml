@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.Saksofon">
+    <children>
+        <Text fx:id="text1" layoutX="35.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите необходимый инструмент(Код:23239)">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <ImageView fx:id="im1" fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@saxophone.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="text2" layoutX="14.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Саксофо́н (фр. Saxophone) — тростевой духовой музыкальный инструмент, по принципу звукоизвлечения принадлежащий к семейству язычковых деревянных духовых музыкальных инструментов[2]. Семейство саксофонов сконструировано в 1842 году бельгийским музыкальным мастером Адольфом Саксом и запатентовано им четыре года спустя. С середины XIX века саксофон используется в духовом оркестре, реже — в симфоническом, также в качестве солирующего инструмента в сопровождении оркестра (ансамбля). Является одним из основных инструментов джаза и родственных ему жанров, а также эстрадной музыки. Инструмент обладает полным и мощным звучанием, певучим тембром и большой технической подвижностью." textAlignment="JUSTIFY" wrappingWidth="368.3102722167969">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Button fx:id="butt1" layoutX="446.0" layoutY="200.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="129.0" text="Оформить заказ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+      <Button fx:id="b2" layoutX="484.0" layoutY="254.0" mnemonicParsing="false" text="Вернуться" />
+    </children>
+</Pane>

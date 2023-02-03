@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.WiborStrun">
+   <children>
+      <Text fx:id="text1" layoutX="187.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите необходимый инструмент">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="im1" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@skripka.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="butt2" layoutX="90.0" layoutY="158.0" mnemonicParsing="false" text="Скрипка" />
+      <ImageView fx:id="im2" fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gitara.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="butt22" layoutX="464.0" layoutY="158.0" mnemonicParsing="false" text="Гитара" />
+      <ImageView fx:id="im3" fitHeight="150.0" fitWidth="200.0" layoutX="221.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@gusli.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="butt3" layoutX="300.0" layoutY="332.0" mnemonicParsing="false" text="Гусли" />
+      <Button fx:id="b2" layoutX="491.0" layoutY="345.0" mnemonicParsing="false" text="Вернуться" />
+   </children>
+</Pane>

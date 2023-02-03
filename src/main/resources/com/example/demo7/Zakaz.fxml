@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.Controller">
+    <children>
+        <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="78.0" prefWidth="339.0">
+            <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="115.20001220703125" text="Имя заказчика" />
+                <TableColumn fx:id="kodColumn" prefWidth="106.4000244140625" text="Код инструмента" />
+                <TableColumn fx:id="numberColumn" prefWidth="111.20001220703125" text="Номер телефона заказчика" />
+            </columns>
+        </TableView>
+        <VBox layoutX="14.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" spacing="5.0">
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Имя заказчика" />
+            <TextField fx:id="nameInput" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Код инструмента" />
+            <TextField fx:id="kodInput" />
+            <Text layoutX="10.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер телефона заказчика" />
+            <TextField fx:id="numberInput" />
+            <Button mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="200.0" text="Добавить" />
+        </VBox>
+        <Button layoutX="496.0" layoutY="28.0" mnemonicParsing="false" onAction="#removeCustomer" text="Удалить" />
+        <Button fx:id="save" layoutX="364.0" layoutY="28.0" mnemonicParsing="false" text="Сохранить" />
+    </children>
+</Pane>

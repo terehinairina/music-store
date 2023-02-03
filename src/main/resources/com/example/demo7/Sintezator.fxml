@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.Sintezator">
+    <children>
+        <Text fx:id="text1" layoutX="77.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите необходимый инструмент(Код:4586)">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <ImageView fx:id="im1" fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@sintez.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="text2" layoutX="14.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Синтезатор – это электронный музыкальный инструмент, в основе работы которого лежит синтез звука, отсюда и его название. Этот инструмент вовсе не обязательно должен иметь клавиши, что, однако, идет вразрез общему представлению. Но в данной статье мы не будем вдаваться в терминологию и рассмотрим знакомый всем клавишный инструмент, который в английском языке носит название Keyboard (клавиатура)." textAlignment="JUSTIFY" wrappingWidth="368.3102722167969">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Button fx:id="butt1" layoutX="458.0" layoutY="184.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="129.0" text="Оформить заказ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Text fx:id="text3" layoutX="15.0" layoutY="274.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Современный синтезатор представляет собой сложное устройство, которое (в зависимости от модели и производителя) совмещает в себе множество различных функций и позволяет исполнять и записывать музыку, создавать сложные аранжировки, а также оперировать с MIDI-сообщениями. Нет никакого смысла сравнивать синтезатор с акустическим и даже цифровым пианино." textAlignment="JUSTIFY" wrappingWidth="569.3348388671875">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+      <Button fx:id="b2" layoutX="497.0" layoutY="232.0" mnemonicParsing="false" text="Вернуться" />
+    </children>
+</Pane>

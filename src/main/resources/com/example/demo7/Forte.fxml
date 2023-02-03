@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.Forte">
+    <children>
+        <Text fx:id="text1" layoutX="63.0" layoutY="24.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Выберите необходимый инструмент (Код:35263)">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Text>
+        <ImageView fx:id="im1" fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@piano.jpg" />
+            </image>
+        </ImageView>
+        <Text fx:id="text2" layoutX="14.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Старинное название фортепиано – клавир. До изобретения инструмента существовали и другие ударно-клавишные струнные виды – клавесин и клавикорд. Объединяет их то, что все они состоят из корпуса и внутреннего ударно-струнного механизма. Клавесины и клавикорды утратили свое значение из-за негромкого затихающего звука, недостаточно динамичного звучания, невозможности менять громкость." textAlignment="JUSTIFY" wrappingWidth="368.3102722167969">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+        <Button fx:id="butt1" layoutX="458.0" layoutY="184.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="129.0" text="Оформить заказ">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Text fx:id="text3" layoutX="15.0" layoutY="273.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фортепьяно имеет клавиатуру из 88 клавиш-полутонов. Под ней располагаются две или три педали. При нажатии правой педали происходит неразрывное звучание «legato». При нажатии средней педали музыкант удерживает избранные демпферы, а левая педаль используется для ослабления звука." textAlignment="JUSTIFY" wrappingWidth="569.3348388671875">
+            <font>
+                <Font size="16.0" />
+            </font>
+        </Text>
+      <Button fx:id="b2" layoutX="497.0" layoutY="350.0" mnemonicParsing="false" text="Вернуться" />
+    </children>
+</Pane>

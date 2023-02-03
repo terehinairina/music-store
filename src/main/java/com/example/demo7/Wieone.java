@@ -1,0 +1,86 @@
+package com.example.demo7;
+
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.image.ImageView;
+import javafx.scene.text.Text;
+import javafx.stage.Stage;
+
+public class Wieone {
+
+    @FXML
+    private Button bu2;
+
+    @FXML
+    private Button bu3;
+
+    @FXML
+    private Button butt1;
+
+    @FXML
+    private ImageView im1;
+
+    @FXML
+    private ImageView im2;
+
+    @FXML
+    private ImageView im3;
+
+    @FXML
+    private Text text1;
+
+    @FXML
+    private Text text2;
+    @FXML
+    public void initialize() {
+        butt1.setOnAction(clik -> {
+            try {
+                FXMLLoader loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("WiborStrun.fxml"));
+                loader.load();
+                Parent root = loader.getRoot();
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root));
+                stage.show();
+                stage.setTitle("Музыкальный магазин");
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+        bu2.setOnAction(clik -> {
+            try {
+                FXMLLoader loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("WiborKlavi.fxml"));
+                loader.load();
+                Parent root = loader.getRoot();
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root));
+                stage.show();
+                stage.setTitle("Музыкальный магазин");
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+        bu3.setOnAction(clik -> {
+            try {
+                FXMLLoader loader = new FXMLLoader();
+                loader.setLocation(getClass().getResource("WiborDuhi.fxml"));
+                loader.load();
+                Parent root = loader.getRoot();
+                Stage stage = new Stage();
+                stage.setScene(new Scene(root));
+                stage.show();
+                stage.setTitle("Музыкальный магазин");
+            } catch (Exception e) {
+                throw new RuntimeException(e);
+            }
+        });
+
+    }
+
+}
