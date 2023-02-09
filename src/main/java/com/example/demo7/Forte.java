@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 public class Forte  {
 
     @FXML
-    private Button butt1;
+    private Button  butt1;
 
     @FXML
     private Button b2;
