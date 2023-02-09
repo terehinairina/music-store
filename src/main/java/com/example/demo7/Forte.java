@@ -9,7 +9,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
-public class Forte {
+public class Forte  {
 
     @FXML
     private Button butt1;

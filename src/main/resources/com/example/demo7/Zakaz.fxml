@@ -10,14 +10,14 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo7.Controller">
     <children>
-        <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="78.0" prefWidth="339.0">
+        <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="151.0" prefWidth="339.0">
             <columns>
                 <TableColumn fx:id="nameColumn" prefWidth="115.20001220703125" text="Имя заказчика" />
                 <TableColumn fx:id="kodColumn" prefWidth="106.4000244140625" text="Код инструмента" />
                 <TableColumn fx:id="numberColumn" prefWidth="111.20001220703125" text="Номер телефона заказчика" />
             </columns>
         </TableView>
-        <VBox layoutX="14.0" layoutY="100.0" prefHeight="200.0" prefWidth="200.0" spacing="5.0">
+        <VBox layoutX="14.0" layoutY="167.0" prefHeight="200.0" prefWidth="200.0" spacing="5.0">
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Имя заказчика" />
             <TextField fx:id="nameInput" />
             <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Код инструмента" />
